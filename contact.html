@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="noUiSlider and JS/nouislider.min.css">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/styleContact.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Test</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__inner">
+          <div class="logo" onclick="location.href='/index.html'" style="cursor: pointer;">
+            <img src="images/Logo.svg" alt="" class="logo__img" />
+            <div class="logo__text">
+              <span class="logo__text__uxuid">UXUI<span class="logo_text_D">D</span></span>
+            </div>
+          </div>
+          <nav class="navbar">
+            <ul class="navbar__list" id="navMenu">
+              <li class="navbar__list-item">
+                <a href="/index.html" class="navbar__list-link">Home</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/services.html" class="navbar__list-link">Services</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/works.html" class="navbar__list-link">Work</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/process.html" class="navbar__list-link">Process</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/about.html" class="navbar__list-link">About</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/careers.html" class="navbar__list-link">Careers</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="button_contact_us" onclick="location.href='/contact.html'">Contact Us</div>
+        </div>
+        <div class="smallMenu" id="smallMenu"></div>
+        <div class="hamb">
+          <div class="hamb__field" id="hamb">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__FAQ">
+        <div class="main__FAQ__top">
+          <div class="onTopPicture onTopPicture__FAQ"></div>
+          <img src="images/FAQ.png" alt="" class="FAQ__picture">
+          <div class="main__FAQ__textContainer">
+            <h2 class="main__FAQ__textContainer__h2">
+              Contact Us
+            </h2>
+            <p class="main__FAQ__textContainer__p">
+              Get in touch with us today and let us help you with any questions or inquiries you may have.
+            </p>
+          </div>
+        </div>
+        <div class="main__contactSection__bottom__before">
+          <div class="main__contactSection__bottom__before__card">
+            <div class="main__contactSection__bottom__before__card__icon">
+              <img src="images/Mail.svg" alt="" class="main__contactSection__bottom__before__card__icon__svg">
+            </div>
+            <div class="main__contactSection__bottom__before__card__text">hello@uxuid.ru</div>
+          </div>
+          <div class="main__contactSection__bottom__before__card">
+            <div class="main__contactSection__bottom__before__card__icon">
+              <img src="images/Phone.svg" alt="" class="main__contactSection__bottom__before__card__icon__svg">
+            </div>
+            <div class="main__contactSection__bottom__before__card__text">+91 91813 23 2309</div>
+          </div>
+          <div class="main__contactSection__bottom__before__card">
+            <div class="main__contactSection__bottom__before__card__icon">
+              <img src="images/Geo.svg" alt="" class="main__contactSection__bottom__before__card__icon__svg">
+            </div>
+            <div class="main__contactSection__bottom__before__card__text">Get Location</div>
+          </div>
+        </div>
+        <div class="main__contactSection__bottom">
+          <div class="main__contactSection__bottom__container">
+            <div class="main__contactSection__bottom__container__topContainer">
+              <div class="main__contactSection__bottom__container__topContainer__subContainer">
+                <span class="main__contactSection__bottom__container__topContainer__text">Full Name</span>
+                <input type="text" placeholder="Type here" class="main__contactSection__input">
+              </div>
+              <div class="main__contactSection__bottom__container__topContainer__subContainer">
+                <span class="main__contactSection__bottom__container__topContainer__text">Email</span>
+                <input type="text" placeholder="Type here" class="main__contactSection__input">
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__whyContactingUs">
+              <div class="main__contactSection__bottom__container__whyContactingUs__topText">
+                Why are you contacting us?
+              </div>
+              <div class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs">
+                <div
+                  class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainerLeft">
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input"
+                        checked>
+                      Web Design
+                    </label>
+                  </div>
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input">
+                      Collaboration
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainerRight">
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input">
+                      Mobile App Design
+                    </label>
+                  </div>
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input">
+                      Others
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__yourBudget">
+              <div class="main__contactSection__bottom__container__yourBudget__topText">
+                <h2 class="main__contactSection__bottom__container__yourBudget__topText__h2">
+                  Your Budget
+                </h2>
+                <p class="main__contactSection__bottom__container__yourBudget__topText__p">
+                  Slide to indicate your budget range
+                </p>
+              </div>
+              <div class="main__contactSection__bottom__container__yourBudget__rangeSlider" id="range-slider">
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__yourMessage">
+              <h2 class="main__contactSection__bottom__container__yourMessage__topText__h2">
+                Your Message
+              </h2>
+              <div class="main__contactSection__bottom_container__yourMessage__inputs">
+                <input type="text" placeholder="Type here"
+                  class="main__contactSection__input main__contactSection__input__yourMessage" maxlength="85"
+                  onkeyup="testJump(this);">
+                <input type="text" class="main__contactSection__input main__contactSection__input__yourMessage">
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__buttonSubmit">
+              Submit
+            </div>
+          </div>
+        </div>
+        <div class="main__contactSection__bottom__after">
+          <div class="main__contactSection__bottom__after__leftPart">
+            <div class="main__contactSection__bottom__after__leftPart__textContainer">
+              <div class="main__contactSection__bottom__after__leftPart__text">Operating Days</div>
+              <div class="main__contactSection__bottom__after__leftPart__designedText">Monday to Friday</div>
+            </div>
+          </div>
+          <div class="main__contactSection__bottom__after__rightPart">
+            <div class="footer__subContainer main__contactSection__bottom__after__rightPart__subContainer">
+              <div class="footer__subContainer__text">Stay Connected</div>
+              <div class="footer__subContainer__buttons">
+                <div class="footer__subContainer__button">
+                  <img src="images/Facebook.svg" alt="" class="footer__subContainer__icons" />
+                </div>
+                <div class="footer__subContainer__button">
+                  <img src="images/Twitter.svg" alt="" class="footer__subContainer__icons" />
+                </div>
+                <div class="footer__subContainer__button">
+                  <img src="images/rightPart__icon.svg" alt=""
+                    class="footer__subContainer__icons footer__subContainer__icon__lastOne" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__FAQ">
+        <div class="main__FAQ__top">
+          <div class="onTopPicture onTopPicture__FAQ"></div>
+          <img src="images/FAQ.png" alt="" class="FAQ__picture">
+          <div class="main__FAQ__textContainer">
+            <h2 class="main__FAQ__textContainer__h2">
+              Frequently Asked Questions
+            </h2>
+            <p class="main__FAQ__textContainer__p">
+              Still you have any questions? Contact our Team via hello@uxuid.ru
+            </p>
+          </div>
+        </div>
+        <div class="main__FAQ__bottom">
+          <div class="main__FAQ__bottom__container main__FAQ__bottom__container__first">
+            <div class="main__FAQ__bottom__card__accordion active">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">01</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    What services does UXUID provide?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">02</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    How can UXUID help my business?
+                  </span>
+                  <div class="main__FAQ__bottom__card__accordion__blockOfIcon">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="main__FAQ__bottom__card__accordion__icon">
+                      <path
+                        d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                        fill="" />
+                    </svg>
+                  </div>
+
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">03</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    What industries does UXUID work with?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">04</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    How long does it take to complete a project with UXUID?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="main__FAQ__bottom__container main__FAQ__bottom__container__second">
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">05</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    Do you offer ongoing support and maintenance after the project is completed?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">06</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    Can you work with existing design or development frameworks?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">07</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    How involved will I be in the project development process?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">08</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    Can you help with website or app maintenance and updates?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__inner">
+          <div class="footer__start">
+            <div class="logo" href="#"  onclick="location.href='/index.html'" style="cursor: pointer;">
+              <a href="#">
+                <img src="images/Logo.svg" alt="" class="logo__img" />
+              </a>
+              <div class="logo__text">
+                <a href="#">UXUI<span class="logo_text_D">D</span></a>
+              </div>
+            </div>
+            <div class="line-mobile"></div>
+            <nav class="navbar__footer">
+              <ul class="navbar__footer__list">
+                <li class="navbar__footer__list-item">
+                  <a href="/index.html" class="navbar__footer__list-link">Home</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/services.html" class="navbar__footer__list-link">Services</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/works.html" class="navbar__footer__list-link">Work</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/process.html" class="navbar__footer__list-link">Process</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/about.html" class="navbar__footer__list-link">About</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/careers.html" class="navbar__footer__list-link">Careers</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/contact.html" class="navbar__footer__list-link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__subContainer">
+              <div class="footer__subContainer__text">Stay Connected</div>
+              <div class="footer__subContainer__buttons">
+                <div class="footer__subContainer__button">
+                  <img src="images/Facebook.svg" alt="" class="footer__subContainer__icons" />
+                </div>
+                <div class="footer__subContainer__button">
+                  <img src="images/Twitter.svg" alt="" class="footer__subContainer__icons" />
+                </div>
+                <div class="footer__subContainer__button">
+                  <img src="images/Telegram.svg" alt=""
+                    class="footer__subContainer__icons footer__subContainer__icon__lastOne" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="footer__end">
+            <div class="footer__end__subContainer">
+              <div class="footer__end__subContainer__block">
+                <img src="images/Mail.svg" alt="" class="footer__end__subContainer__block__icon" />
+                <span class="footer__end__subContainer__block__span">hello@uxuid.ru</span>
+              </div>
+              <div class="footer__end__subContainer__block">
+                <img src="images/Phone.svg" alt="" class="footer__end__subContainer__block__icon" />
+                <span class="footer__end__subContainer__block__span">+91 91813 23 2309</span>
+              </div>
+              <div class="footer__end__subContainer__block">
+                <img src="images/Geo.svg" alt="" class="footer__end__subContainer__block__icon" />
+                <span class="footer__end__subContainer__block__span">Somewhere in the World</span>
+              </div>
+            </div>
+            <div class="footer__end__text">
+              <span class="footer__end__text__span">© 2023 UXUID. All rights reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="noUiSlider and JS/nouislider.min.js"></script>
+  <script src="noUiSlider and JS/index.js"></script>
+</body>
+
+</html>

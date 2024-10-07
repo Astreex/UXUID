@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="noUiSlider and JS/nouislider.min.css">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/styleProcess.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap"
+    rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Test</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__inner">
+          <div class="logo" onclick="location.href='/index.html'" style="cursor: pointer;">
+            <img src="images/Logo.svg" alt="" class="logo__img" />
+            <div class="logo__text">
+              <span class="logo__text__uxuid">UXUI<span class="logo_text_D">D</span></span>
+            </div>
+          </div>
+          <nav class="navbar">
+            <ul class="navbar__list" id="navMenu">
+              <li class="navbar__list-item">
+                <a href="/index.html" class="navbar__list-link">Home</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/services.html" class="navbar__list-link">Services</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/works.html" class="navbar__list-link">Work</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/process.html" class="navbar__list-link">Process</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/about.html" class="navbar__list-link">About</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/careers.html" class="navbar__list-link">Careers</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="button_contact_us" onclick="location.href='/contact.html'">Contact Us</div>
+        </div>
+        <div class="smallMenu" id="smallMenu"></div>
+        <div class="hamb">
+          <div class="hamb__field" id="hamb">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__FAQ">
+        <div class="main__FAQ__top">
+          <div class="onTopPicture onTopPicture__FAQ"></div>
+          <img src="images/FAQ.png" alt="" class="FAQ__picture">
+          <div class="main__FAQ__textContainer">
+            <h2 class="main__FAQ__textContainer__h2">
+              Process of Starting the Project
+            </h2>
+            <p class="main__FAQ__textContainer__p">
+              At UXUID, we value transparency, collaboration, and delivering exceptional results.
+            </p>
+          </div>
+        </div>
+        <div class="main__FAQ__bottom">
+          <div class="main__FAQ__bottom__aboveContainerWithCards">
+            <div class="main__FAQ__bottom__aboveContainerWithCards__h2">At UXUID</div>
+            <div class="main__FAQ__bottom__aboveContainerWithCards__p">We follow a structured and collaborative process
+              to ensure the successful delivery of exceptional digital products. Our process combines industry best
+              practices, creative thinking, and a client-centric approach.</div>
+            <div class="main__FAQ__bottom__aboveContainerWithCards__overview">Here's an overview of our typical process:
+            </div>
+          </div>
+          <div class="main__FAQ__bottom__containerWithCards">
+            <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards">
+              <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card">
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer">
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number">
+                    01</div>
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text">
+                    Planning and Strategy</div>
+                </div>
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text">Based on the
+                  gathered information, we create a comprehensive project plan and strategy. This includes defining
+                  project milestones, timelines, deliverables, and resource allocation. We collaborate closely with you
+                  to align our strategy with your vision.</div>
+              </div>
+              <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card">
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer">
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number">
+                    02</div>
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text">
+                    Planning and Strategy</div>
+                </div>
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text">Based on the
+                  gathered information, we create a comprehensive project plan and strategy. This includes defining
+                  project milestones, timelines, deliverables, and resource allocation. We collaborate closely with you
+                  to align our strategy with your vision.</div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards">
+              <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card">
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer">
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number">
+                    03</div>
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text">
+                    Design</div>
+                </div>
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text">Our expert
+                  designers translate the project requirements into captivating visual designs. We create wireframes,
+                  mockups, and interactive prototypes to showcase the user interface, user experience, and overall
+                  design aesthetics. We iterate on the designs based on your feedback until we achieve the perfect look
+                  and feel.</div>
+              </div>
+              <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card">
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer">
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number">
+                    04</div>
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text">
+                    Development</div>
+                </div>
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text">Once the designs
+                  are approved, our skilled development team brings them to life. We use cutting-edge technologies and
+                  coding best practices to build robust and scalable digital products. Throughout the development phase,
+                  we maintain open lines of communication to keep you updated on progress and address any questions or
+                  concerns.</div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards">
+              <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card">
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer">
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number">
+                    05</div>
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text">
+                    Testing and Quality Assurance</div>
+                </div>
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text">We conduct
+                  rigorous testing to ensure that your digital product functions flawlessly across different devices,
+                  browsers, and operating systems. Our quality assurance team meticulously checks for bugs, usability
+                  issues, and performance bottlenecks. We strive for a seamless user experience and a high level of
+                  reliability.</div>
+              </div>
+              <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card">
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer">
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number">
+                    06</div>
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text">
+                    Deployment and Launch</div>
+                </div>
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text">When your digital
+                  product is thoroughly tested and meets your satisfaction, we prepare for deployment. We handle all the
+                  technical aspects of launching your product, ensuring a smooth transition from development to the live
+                  environment. We assist with setting up hosting, configuring servers, and managing any required
+                  integrations.</div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards">
+              <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card">
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer">
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number">
+                    07</div>
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text">
+                    Post-Launch Support</div>
+                </div>
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text">Our commitment to
+                  your success doesn't end with the launch. We provide ongoing support and maintenance services to
+                  ensure your digital product continues to perform optimally. We offer different support packages based
+                  on your needs, including bug fixes, feature enhancements, security updates, and technical support.
+                </div>
+              </div>
+              <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card">
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer">
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number">
+                    08</div>
+                  <div
+                    class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text">
+                    Continuous Improvement</div>
+                </div>
+                <div class="main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text">We believe in
+                  continuous improvement and strive to optimize your digital product even after launch. We monitor user
+                  feedback, analytics, and market trends to identify opportunities for enhancement and growth. We
+                  proactively suggest improvements and updates to keep your digital product ahead of the curve.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__contactSection">
+        <div class="main__contactSection__top">
+          <div class="onTopPicture onTopPicture__contactSection"></div>
+          <img src="images/contactSection.png" alt="" class="contactSection__picture">
+          <div class="main__contactSection__abovePicture">
+            <div class="main__contactSection__top__logo">
+              <img src="images/contactSectionLogo.svg" alt="" class="main__contactSection__top__logo__img">
+            </div>
+            <div class="main__contactSection__top__textContainer">
+              <h2 class="main__contactSection__top__textContainer__h2">
+                Thank you for your Interest in UXUID.
+              </h2>
+              <div class="main__contactSection__top__textContainer__p">We would love to hear from you and discuss how we
+                can help bring your digital ideas to life. Here are the different ways you can get in touch with us.
+              </div>
+            </div>
+            <div class="main__contactSection__top__button">Start Project</div>
+          </div>
+        </div>
+        <div class="main__contactSection__bottom">
+          <div class="main__contactSection__bottom__container">
+            <div class="main__contactSection__bottom__container__topContainer">
+              <div class="main__contactSection__bottom__container__topContainer__subContainer">
+                <span class="main__contactSection__bottom__container__topContainer__text">Full Name</span>
+                <input type="text" placeholder="Type here" class="main__contactSection__input">
+              </div>
+              <div class="main__contactSection__bottom__container__topContainer__subContainer">
+                <span class="main__contactSection__bottom__container__topContainer__text">Email</span>
+                <input type="text" placeholder="Type here" class="main__contactSection__input">
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__whyContactingUs">
+              <div class="main__contactSection__bottom__container__whyContactingUs__topText">
+                Why are you contacting us?
+              </div>
+              <div class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs">
+                <div
+                  class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainerLeft">
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input"
+                        checked>
+                      Web Design
+                    </label>
+                  </div>
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input">
+                      Collaboration
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainerRight">
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input">
+                      Mobile App Design
+                    </label>
+                  </div>
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input">
+                      Others
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__yourBudget">
+              <div class="main__contactSection__bottom__container__yourBudget__topText">
+                <h2 class="main__contactSection__bottom__container__yourBudget__topText__h2">
+                  Your Budget
+                </h2>
+                <p class="main__contactSection__bottom__container__yourBudget__topText__p">
+                  Slide to indicate your budget range
+                </p>
+              </div>
+              <div class="main__contactSection__bottom__container__yourBudget__rangeSlider" id="range-slider">
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__yourMessage">
+              <h2 class="main__contactSection__bottom__container__yourMessage__topText__h2">
+                Your Message
+              </h2>
+              <div class="main__contactSection__bottom_container__yourMessage__inputs">
+                <input type="text" placeholder="Type here"
+                  class="main__contactSection__input main__contactSection__input__yourMessage" maxlength="85"
+                  onkeyup="testJump(this);">
+                <input type="text" class="main__contactSection__input main__contactSection__input__yourMessage">
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__buttonSubmit">
+              Submit
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__inner">
+          <div class="footer__start">
+            <div class="logo" href="#"  onclick="location.href='/index.html'" style="cursor: pointer;">
+              <a href="#">
+                <img src="images/Logo.svg" alt="" class="logo__img" />
+              </a>
+              <div class="logo__text">
+                <a href="#">UXUI<span class="logo_text_D">D</span></a>
+              </div>
+            </div>
+            <div class="line-mobile"></div>
+            <nav class="navbar__footer">
+              <ul class="navbar__footer__list">
+                <li class="navbar__footer__list-item">
+                  <a href="/index.html" class="navbar__footer__list-link">Home</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/services.html" class="navbar__footer__list-link">Services</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/works.html" class="navbar__footer__list-link">Work</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/process.html" class="navbar__footer__list-link">Process</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/about.html" class="navbar__footer__list-link">About</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/careers.html" class="navbar__footer__list-link">Careers</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/contact.html" class="navbar__footer__list-link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__subContainer">
+              <div class="footer__subContainer__text">Stay Connected</div>
+              <div class="footer__subContainer__buttons">
+                <div class="footer__subContainer__button">
+                  <img src="images/Facebook.svg" alt="" class="footer__subContainer__icons" />
+                </div>
+                <div class="footer__subContainer__button">
+                  <img src="images/Twitter.svg" alt="" class="footer__subContainer__icons" />
+                </div>
+                <div class="footer__subContainer__button">
+                  <img src="images/Telegram.svg" alt=""
+                    class="footer__subContainer__icons footer__subContainer__icon__lastOne" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="footer__end">
+            <div class="footer__end__subContainer">
+              <div class="footer__end__subContainer__block">
+                <img src="images/Mail.svg" alt="" class="footer__end__subContainer__block__icon" />
+                <span class="footer__end__subContainer__block__span">hello@uxuid.ru</span>
+              </div>
+              <div class="footer__end__subContainer__block">
+                <img src="images/Phone.svg" alt="" class="footer__end__subContainer__block__icon" />
+                <span class="footer__end__subContainer__block__span">+91 91813 23 2309</span>
+              </div>
+              <div class="footer__end__subContainer__block">
+                <img src="images/Geo.svg" alt="" class="footer__end__subContainer__block__icon" />
+                <span class="footer__end__subContainer__block__span">Somewhere in the World</span>
+              </div>
+            </div>
+            <div class="footer__end__text">
+              <span class="footer__end__text__span">© 2023 UXUID. All rights reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+    <script src="noUiSlider and JS/nouislider.min.js"></script>
+    <script src="noUiSlider and JS/index.js"></script>
+</body>
+
+</html>

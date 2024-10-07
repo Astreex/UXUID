@@ -1,0 +1,308 @@
+.main__FAQ {
+  margin-top: 100px;
+}
+
+.main__contactSection__top, .main__contactSection__bottom, .main__contactSection__bottom__container  {
+  border-top: 0;
+}
+
+.main__FAQ__bottom {
+  height: fit-content;
+  min-height: auto;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__FAQ__bottom__aboveContainerWithCards {
+  height: 396px;
+  padding: 120px 50px 50px;
+  width: 100%;
+  border-bottom: 1px solid #262626;
+  border-left: 1px solid #262626;
+  border-right: 1px solid #262626;
+}
+
+.main__FAQ__bottom__aboveContainerWithCards__h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  height: 58px;
+  width: 100%;
+}
+
+.main__FAQ__bottom__aboveContainerWithCards__p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(230, 230, 230, 1);
+  height: 27px;
+  width: 100%;
+  margin-top: 14px;
+}
+
+.main__FAQ__bottom__aboveContainerWithCards__overview {
+  height: 50px;
+  width: fit-content;
+  padding: 12px 14px;
+  background-color: rgba(38, 38, 38, 1);
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.main__FAQ__bottom__containerWithCards {
+width: 100%;
+height: fit-content;
+}
+
+.main__FAQ__bottom__containerWithCards__containerWithTwoCards {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  width: 100%;
+}
+
+.main__FAQ__bottom__containerWithCards__containerWithTwoCards:nth-child(1) {
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card {
+    height: 463px;
+  }
+}
+
+.main__FAQ__bottom__containerWithCards__containerWithTwoCards__card {
+  padding: 100px 50px;
+  height: fit-content;
+  border: 1px solid #262626;
+  border-top: 0;
+  width: 798px;
+  height: 490px;
+}
+
+.main__FAQ__bottom__containerWithCards__containerWithTwoCards__card + .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card {
+  border-left: 0;
+}
+
+.main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 105px;
+}
+
+.main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number {
+  font-weight: 600;
+  font-size: 150px;
+  line-height: 88px;
+  color: rgba(155, 153, 255, 1);
+  height: 105px;
+  width: fit-content;
+}
+.main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text {
+  width: 100%;
+  margin-left: 14px;
+  margin-top: 43px;
+  padding-left: 10px;
+  border-bottom: 1px solid #262626;
+}
+
+.main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: rgba(152, 152, 154, 1);
+}
+
+.main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text {
+  margin-top: 50px;
+  color: rgba(152, 152, 154, 1);
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1756px) {
+  .main__FAQ {
+    margin-top: 85px;
+  }
+
+  .main__FAQ__bottom__aboveContainerWithCards {
+    height: 306px;
+    padding: 80px 40px 40px;
+  }
+
+  .main__FAQ__bottom__aboveContainerWithCards__h2 {
+    font-size: 38px;
+    line-height: 46px;
+    height: 46px;
+  }
+
+  .main__FAQ__bottom__aboveContainerWithCards__p {
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    margin-top: 10px;
+  }
+
+  .main__FAQ__bottom__aboveContainerWithCards__overview {
+    font-size: 18px;
+    line-height: 22px;
+    height: 42px;
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+
+
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards:nth-child(1) {
+    .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card {
+      height: 380px;
+    }
+  }
+  
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card {
+    height: 404px;
+    padding: 80px 40px;
+  }
+  
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer {
+    height: 84px;
+  }
+  
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number {
+    height: 84px;
+    font-size: 120px;
+    line-height: 70px;
+  }
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text {
+    font-size: 24px;
+    line-height: 29px;
+    height: 49px;
+    margin-top: 35px;
+    margin-left: 14px;
+  }
+  
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+
+}
+
+@media screen and (max-width: 1200px) {
+  .main__FAQ {
+    margin-top: 105px;
+  }
+
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards {
+    flex-wrap: wrap;
+  }
+
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card {
+    width: 100%;
+  }
+
+
+.main__FAQ__bottom__containerWithCards__containerWithTwoCards__card + .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card {
+  border-left: 1px solid #262626;
+}
+
+  .main__FAQ__bottom__aboveContainerWithCards {
+    height: 294px;
+    padding: 40px 16px;
+  }
+
+  .main__FAQ__bottom__aboveContainerWithCards__h2 {
+    font-size: 28px;
+    line-height: 34px;
+    height: 34px;
+  }
+
+  .main__FAQ__bottom__aboveContainerWithCards__p {
+    font-size: 14px;
+    line-height: 21px;
+    height: fit-content;
+  }
+
+  .main__FAQ__bottom__aboveContainerWithCards__overview {
+    font-size: 16px;
+    line-height: 19px;
+    height: 39px;
+    padding: 10px;
+    margin-top: 30px;
+    text-wrap: nowrap;
+  }
+
+
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards:nth-child(1) {
+    .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card {
+      height: fit-content;
+    }
+  }
+  
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card {
+    height: fit-content;
+    padding: 40px 24px;
+  }
+  
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer {
+    height: 56px;
+  }
+  
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__number {
+    height: 56px;
+    font-size: 80px;
+line-height: 45px;
+  }
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text {
+    font-size: 20px;
+    line-height: 24px;
+    height: 38px;
+    margin-top: 18px;
+    margin-left: 10px;
+  }
+  
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__text {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+
+}
+
+@media screen and (max-width: 450px) { 
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards:nth-child(3) > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card:nth-child(1) > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text {
+    height: 56px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 411px) {
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards:nth-child(4) > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card:nth-child(2) > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text {
+    height: 56px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards:nth-child(3) > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card:nth-child(2) > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text {
+    height: 56px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 382px) {
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards:nth-child(1) > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card:nth-child(2) > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text {
+    height: 56px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 372px) {
+  .main__FAQ__bottom__containerWithCards__containerWithTwoCards:nth-child(4) > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card:nth-child(1) > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer > .main__FAQ__bottom__containerWithCards__containerWithTwoCards__card__topTextContainer__text {
+    height: 56px;
+    margin-top: 0;
+  }
+}

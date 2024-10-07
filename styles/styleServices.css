@@ -1,0 +1,543 @@
+body {
+  color: white;
+}
+
+.main {
+  height: auto;
+}
+
+.main__ourServices__top {
+  border-bottom: 0;
+  margin-top: -20px;
+}
+
+.main__ourServices__bottom {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__ourServices__bottom__section__top {
+  min-height: 396px;
+  width: 100%;
+  border: 1px solid #262626;
+  padding: 100px 50px 50px;
+  border-bottom: 0;
+}
+
+.main__ourServices__bottom__section__top__h2 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.main__ourServices__bottom__section__top__p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 14px;
+  height: auto;
+  text-wrap: wrap;
+  width: 100%;
+}
+
+.main__ourServices__bottom__section__top__include {
+  width: 296px;
+  height: 50px;
+  padding: 12px 14px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: rgba(38, 38, 38, 1);
+  font-size: 22px;
+  line-height: 26.4px;
+  font-weight: 400;
+  color: white;
+  border-radius: 8px;
+}
+
+.main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__top>.main__ourServices__bottom__section__top__include {
+  width: max-content;
+}
+
+.main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__top>.main__ourServices__bottom__section__top__include {
+  width: max-content;
+}
+
+.main__ourServices__bottom__section__bottom {
+  height: auto;
+  width: 100%;
+}
+
+.main__ourServices__bottom__section__bottom__container+.main__ourServices__bottom__section__bottom__container {
+  gap: 10px;
+  border-top: 0;
+}
+
+.main__ourServices__bottom__section__bottom__container__top {
+  padding: 50px;
+  height: 134px;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 500;
+  color: rgba(152, 152, 154, 1);
+  border: 1px solid #262626;
+  border-bottom: 0;
+  width: 100%;
+}
+
+.main__ourServices__bottom__section__bottom__container__content {
+  height: 278px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__ourServices__bottom__section__bottom__container__content__card {
+  height: 278px;
+  max-width: 399px;
+  width: 100%;
+  padding: 50px;
+  border: 1px solid #262626;
+  border-bottom: 0;
+}
+
+.main__ourServices__bottom__section__bottom__container__content__card+.main__ourServices__bottom__section__bottom__container__content__card {
+  border-left: 0;
+}
+
+.main__ourServices__bottom__section__bottom__container__content__card__boxOfImg {
+  width: 88px;
+  height: 88px;
+  border-radius: 12px;
+  border: 1px solid rgba(38, 38, 38, 1);
+  padding: 24px;
+  background: linear-gradient(to left top, rgba(40, 36, 255, 0) 50%, rgba(40, 36, 255, 0.05));
+}
+
+.main__ourServices__bottom__section__bottom__container__content__card__span {
+  font-size: 20px;
+  height: 60px;
+  line-height: 30px;
+  font-weight: 500;
+  color: rgba(230, 230, 230, 1);
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.main__ourServices__bottom__section__bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+}
+
+
+.main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards>.main__ourServices__bottom__section__bottom__container__content__card,
+.main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content,
+.main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+  height: 306px;
+}
+
+
+.main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards>.main__ourServices__bottom__section__bottom__container__content__card,
+.main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content,
+.main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+  height: 248px;
+}
+
+.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards+.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+  .main__ourServices__bottom__section__bottom__container__content__card {
+    border-left: 0;
+  }
+}
+
+.main__contactSection__top {
+  height: 624px;
+  position: relative;
+}
+
+.main__contactSection__top__logo {
+  height: 60px;
+  width: 60px;
+}
+
+.contactSection__picture {
+  height: 100%;
+  width: 100%;
+}
+
+.main__contactSection__abovePicture {
+  height: 384px;
+  max-width: 895px;
+}
+
+@media screen and (max-width: 1756px) {
+  .main__ourServices__top {
+    margin-top: -35px;
+  }
+
+  .main__ourServices__bottom__section__top__h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .main__ourServices__bottom__section__top__p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+
+  .main__ourServices__bottom__section__top__include {
+    width: 239px;
+    padding: 10px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .main__ourServices__bottom__section__top {
+    min-height: 306px;
+    padding: 80px 40px 40px;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__top {
+    height: 106px;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 40px;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__card {
+    height: 216px;
+    padding: 40px;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards,
+  .main__ourServices__bottom__section__bottom__container__content {
+    height: fit-content;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__card__boxOfImg {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    border: 0;
+    background: linear-gradient(180deg, rgba(36, 36, 36, 1), rgba(36, 36, 36, 0)),
+      linear-gradient(to right top, rgba(40, 36, 255, 0) 65%, rgba(40, 36, 255, 0.2));
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__card__boxOfImg__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__card__span {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    height: auto;
+  }
+
+  .main__ourServices__bottom__section__engineering {
+    min-height: 306px;
+  }
+
+  .main__contactSection__abovePicture {
+    height: 307px;
+    max-width: 780px;
+    width: 100%;
+  }
+
+  .main__contactSection__top__textContainer__p {
+    height: auto;
+    line-height: 24px;
+  }
+
+  .main__contactSection__top {
+    height: 509px;
+  }
+
+  .main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards>.main__ourServices__bottom__section__bottom__container__content__card,
+  .main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content,
+  .main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+    height: 240px;
+  }
+
+  .main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards>.main__ourServices__bottom__section__bottom__container__content__card,
+  .main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content,
+  .main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+    height: 192px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    width: 100%;
+  }
+
+  .main__ourServices__top {
+    margin-top: -15px;
+  }
+
+  .contactSection__picture {
+    width: 1200px;
+  }
+
+  .main__contactSection__abovePicture {
+    height: fit-content;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content {
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+    max-width: 798px;
+    justify-content: center;
+    height: fit-content;
+    border: 1px solid #262626;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__top+.main__ourServices__bottom__section__bottom__container__content {
+    .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+      border-top: 0;
+      border-bottom: 0;
+    }
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards+.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+    .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+      border-bottom: 1px solid #262626;
+    }
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__card {
+    height: fit-content;
+    padding: 20px;
+    border: 0;
+    height: fit-content;
+  }
+
+  .main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards>.main__ourServices__bottom__section__bottom__container__content__card,
+  .main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content,
+  .main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+    height: fit-content;
+  }
+
+
+  .main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards>.main__ourServices__bottom__section__bottom__container__content__card,
+  .main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content,
+  .main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+    height: fit-content;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards+.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+    .main__ourServices__bottom__section__bottom__container__content__card {
+      border-top: 1px solid #262626;
+    }
+
+    .main__ourServices__bottom__section__bottom__container__content__card+.main__ourServices__bottom__section__bottom__container__content__card {
+      border-left: 0;
+    }
+  }
+
+  .main__ourServices__bottom__section__bottom__container__top {
+    border-bottom: 1px solid #262626;
+    border-left: 0;
+    border-right: 0;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    height: 104px;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(1) {
+    .main__ourServices__bottom__section__bottom__container__content__card {
+      border-top: 0;
+    }
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__card__boxOfImg {
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__card__boxOfImg__img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__content__card__span {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+  }
+
+  .main__ourServices__bottom__section__top {
+    min-height: 260px;
+    padding: 40px 16px;
+  }
+
+  .main__contactSection__top {
+    margin-top: 0;
+  }
+
+  .main__ourServices__bottom__section__top__p {
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .main__ourServices__bottom__section__top__h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .main__ourServices__bottom__section__top__include {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px;
+    width: 215px;
+  }
+
+  .main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards>.main__ourServices__bottom__section__bottom__container__content__card,
+  .main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content,
+  .main__ourServices__bottom__section__engineering>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(1)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+    height: fit-content;
+  }
+
+
+  .main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards>.main__ourServices__bottom__section__bottom__container__content__card,
+  .main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content,
+  .main__ourServices__bottom__section__projectManagement>.main__ourServices__bottom__section__bottom>.main__ourServices__bottom__section__bottom__container:nth-child(3)>.main__ourServices__bottom__section__bottom__container__content>.main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards {
+    height: fit-content;
+  }
+
+  .main__contactSection__top__logo {
+    max-width: 50px;
+    height: 50px;
+  }
+
+  .main__ourServices__bottom__section:nth-child(1) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(1) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(1) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(2) {
+      border-left: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(1) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(1) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(2) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(1) {
+      border-right: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(1) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(2) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(1) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(1) {
+      border-right: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(1) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(2) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(2) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(1) {
+      border-right: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(1) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(3) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(1) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(1) {
+      border-right: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(1) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(3) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(2) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(2) {
+      border-left: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(2) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(1) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(1) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(2) {
+      border-left: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(2) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(1) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(2) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(1) {
+      border-right: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(2) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(2) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(1) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(2) {
+      border-left: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(2) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(2) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(2) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(1) {
+      border-right: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(2) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(3) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(1) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(1) {
+      border-right: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(2) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(3) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(2) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(1) {
+      border-right: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(3) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(1) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(1) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(2) {
+      border-left: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(3) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(1) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(2) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(2) {
+      border-left: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(3) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(2) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(1) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(2) {
+      border-left: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(3) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(2) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(2) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(2) {
+      border-left: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(3) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(3) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(1) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(2) {
+      border-left: 1px solid #262626;
+    }
+  }
+  .main__ourServices__bottom__section:nth-child(3) > .main__ourServices__bottom__section__bottom >.main__ourServices__bottom__section__bottom__container:nth-child(3) > .main__ourServices__bottom__section__bottom__container__content > .main__ourServices__bottom__section__bottom__container__content__subContainerOfTwoCards:nth-child(2) {
+    .main__ourServices__bottom__section__bottom__container__content__card:nth-child(2) {
+      border-left: 1px solid #262626;
+    }
+  }
+
+}
+
+@media screen and (max-width: 830px) {
+  .main__ourServices__bottom {
+    border: 0;
+  }
+
+  .main__ourServices__bottom__section__bottom__container__top {
+    border-left: 1px solid #262626;
+    border-right: 1px solid #262626;
+    text-wrap: nowrap;
+  }
+}

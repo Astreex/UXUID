@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="noUiSlider and JS/nouislider.min.css">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <title>Test</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__inner">
+          <div class="logo" onclick="location.href='/index.html'" style="cursor: pointer;">
+            <img src="images/Logo.svg" alt="" class="logo__img" />
+            <div class="logo__text">
+              <span class="logo__text__uxuid">UXUI<span class="logo_text_D">D</span></span>
+            </div>
+          </div>
+          <nav class="navbar">
+            <ul class="navbar__list" id="navMenu">
+              <li class="navbar__list-item">
+                <a href="/index.html" class="navbar__list-link">Home</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/services.html" class="navbar__list-link">Services</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/works.html" class="navbar__list-link">Work</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/process.html" class="navbar__list-link">Process</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/about.html" class="navbar__list-link">About</a>
+              </li>
+              <li class="navbar__list-item">
+                <a href="/careers.html" class="navbar__list-link">Careers</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="button_contact_us" onclick="location.href='/contact.html'">Contact Us</div>
+        </div>
+        <div class="smallMenu" id="smallMenu"></div>
+        <div class="hamb">
+          <div class="hamb__field" id="hamb">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__top">
+        <div class="main__top__container">
+          <div class="main__subContainer">
+            <h1 class="main__title">
+              A Digital Product Studio <br />
+              that will Work
+            </h1>
+            <div class="main__subContainer__textContainer">
+              <span class="main__subContainer__textContainer__mobileText">For startups, enterprise leaders, media &
+                publishers, and social good.</span>
+              <div class="main__subContainer__textContainer__justText">
+                For
+              </div>
+              <div class="main__subContainer__textContainer__dedicatedText">
+                Startups
+              </div>
+              <div class="main__subContainer__textContainer__justText">
+                ,
+              </div>
+              <div class="main__subContainer__textContainer__dedicatedText">
+                Enterprise leaders
+              </div>
+              <div class="main__subContainer__textContainer__justText">
+                ,
+              </div>
+              <div class="main__subContainer__textContainer__dedicatedText">
+                Media & Publishers
+              </div>
+              <div class="main__subContainer__textContainer__justText">
+                and
+              </div>
+              <div class="main__subContainer__textContainer__dedicatedText">
+                Social Good
+              </div>
+            </div>
+          </div>
+          <div class="main__buttonsContainer">
+            <div class="main__buttonsContainer__button1" onclick="location.href='/works.html'">Our Works</div>
+            <div class="main__buttonsContainer__button2" onclick="location.href='/contact.html'">Contact Us</div>
+          </div>
+          <div class="main__abstractDesign">
+            <img src="/images/Abstract Design.svg" alt="" class="main__abstractDesign__svg">
+          </div>
+        </div>
+      </section>
+      <div class="main__container__companies">
+        <div class="main__container__companies__trusted">Trusted By 250+ Companies</div>
+        <hr class="main__container__companies__hr">
+        <div class="main__container__company__mobileContainer">
+          <div class="main__container__company">
+            <div class="main__container__company__logo"><img src="images/Zapier.svg" alt=""
+                class="main__container__company__logo__svg-1"></div>
+          </div>
+          <div class="main__container__company">
+            <div class="main__container__company__logo"><img src="images/Spotify.svg" alt=""
+                class="main__container__company__logo__svg-2"></div>
+          </div>
+        </div>
+        <div class="main__container__company__mobileContainer">
+          <div class="main__container__company">
+            <div class="main__container__company__logo"><img src="images/Zoom.svg" alt=""
+                class="main__container__company__logo__svg-3"></div>
+          </div>
+          <div class="main__container__company">
+            <div class="main__container__company__logo"><img src="images/Slack.svg" alt=""
+                class="main__container__company__logo__svg-4"></div>
+          </div>
+        </div>
+
+        <div class="main__container__company__mobileContainer">
+          <div class="main__container__company">
+            <div class="main__container__company__logo"><img src="images/Amazon.svg" alt=""
+                class="main__container__company__logo__svg-5"></div>
+          </div>
+          <div class="main__container__company">
+            <div class="main__container__company__logo"><img src="images/Adobe.svg" alt=""
+                class="main__container__company__logo__svg-6"></div>
+          </div>
+        </div>
+
+      </div>
+      <section class="main__ourServices">
+        <div class="main__ourServices__top">
+          <div class="onTopPicture onTopPicture__ourServices"></div>
+          <img src="images/ourServices.png" alt="" class="ourServices__picture">
+          <div class="main__ourServices__textContainer">
+            <h2 class="main__ourServices__textContainer__h2">Our Services</h2>
+            <p class="main__ourServices__textContainer__p">Transform your brand with our innovative digital solutions
+              that captivate and engage your audience.</p>
+          </div>
+        </div>
+        <div class="main__ourServices__bottom">
+          <div class="main__ourServices__bottom__card">
+            <div class="main__ourServices__bottom__card__top">
+              <div class="main__ourServices__bottom__card__topOfCard">
+                <div class="main__ourServices__bottom__card__boxLogo">
+                  <img src="images/Design.svg" alt="" class="main__ourServices__bottom__card__logo">
+                </div>
+                <div class="main__ourServices__bottom__card__heading">
+                  <p>Design</p>
+                </div>
+              </div>
+              <div class="main__ourServices__bottom__card__text">
+                At UXUID, our design team is passionate about
+                creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe
+                that great design is not just about aesthetics; it's about creating seamless and intuitive user
+                experiences.
+              </div>
+            </div>
+            <div class="main__ourServices__bottom__card__buttonLearnMore" onclick="location.href='/services.html'">
+              Learn More
+            </div>
+          </div>
+          <div class="main__ourServices__bottom__card main__ourServices__bottom__card__middle">
+            <div class="main__ourServices__bottom__card__top">
+              <div class="main__ourServices__bottom__card__topOfCard">
+                <div class="main__ourServices__bottom__card__boxLogo">
+                  <img src="images/Engineering.svg" alt="" class="main__ourServices__bottom__card__logo">
+                </div>
+                <div class="main__ourServices__bottom__card__heading">
+                  <p>Engineering</p>
+                </div>
+              </div>
+              <div class="main__ourServices__bottom__card__text">
+                Our engineering team combines technical expertise with a passion for innovation to build robust and
+                scalable digital solutions. We leverage the latest technologies and best practices to deliver
+                high-performance applications tailored to your specific needs.
+              </div>
+            </div>
+            <div class="main__ourServices__bottom__card__buttonLearnMore" onclick="location.href='/services.html'">
+              Learn More
+            </div>
+          </div>
+          <div class="main__ourServices__bottom__card">
+            <div class="main__ourServices__bottom__card__top">
+              <div class="main__ourServices__bottom__card__topOfCard">
+                <div class="main__ourServices__bottom__card__boxLogo">
+                  <img src="images/ProjectManagment.svg" alt="" class="main__ourServices__bottom__card__logo">
+                </div>
+                <div class="main__ourServices__bottom__card__heading">
+                  <p>Project Management</p>
+                </div>
+              </div>
+              <div class="main__ourServices__bottom__card__text">
+                Our experienced project management team ensures that your projects are delivered on time, within budget,
+                and according to your specifications. We follow industry-standard methodologies and employ effective
+                communication and collaboration tools to keep you informed throughout the development process.
+              </div>
+            </div>
+            <div class="main__ourServices__bottom__card__buttonLearnMore" onclick="location.href='/services.html'">
+              Learn More
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__whyChoose">
+        <div class="main__whyChoose__top">
+          <div class="onTopPicture onTopPicture__whyChoose"></div>
+          <img src="images/whyChoose.png" alt="" class="whyChoose__picture">
+          <div class="main__whyChoose__textContainer">
+            <h2 class="main__whyChoose__textContainer__h2">Why Choose UXUID?</h2>
+            <p class="main__whyChoose__textContainer__p">Experience excellence in digital craftsmanship with our team of
+              skilled professionals dedicated to delivering exceptional results.</p>
+          </div>
+        </div>
+        <div class="main__whyChoose__bottom">
+          <div class="main__whyChoose__bottom__topContainer">
+            <div class="main__whyChoose__bottom__card">
+              <div class="main__whyChoose__bottom__card__topOfCard">
+                <div class="main__whyChoose__bottom__card__boxLogo">
+                  <img src="images/Expertise.svg" alt="" class="main__whyChoose__bottom__card__logo">
+                </div>
+                <div class="main__whyChoose__bottom__card__heading main__whyChoose__bottom__card__heading__first">
+                  <p>Expertise</p>
+                </div>
+              </div>
+              <div class="main__whyChoose__bottom__card__text">
+                Our team consists of highly skilled professionals who have a deep understanding of the digital
+                landscape. We stay updated with the latest industry trends and best practices to deliver cutting-edge
+                solutions.
+              </div>
+            </div>
+            <div class="main__whyChoose__bottom__card">
+              <div class="main__whyChoose__bottom__card__topOfCard">
+                <div class="main__whyChoose__bottom__card__boxLogo">
+                  <img src="images/Client-Centic.svg" alt="" class="main__whyChoose__bottom__card__logo">
+                </div>
+                <div class="main__whyChoose__bottom__card__heading">
+                  <p>Client-Centric Approach</p>
+                </div>
+              </div>
+              <div class="main__whyChoose__bottom__card__text">
+                We prioritize our clients and their unique needs. We listen to your ideas, challenges, and goals, and
+                tailor our services to meet your specific requirements. Your success is our success.
+              </div>
+            </div>
+          </div>
+          <div class="main__whyChoose__bottom__bottomContainer">
+            <div class="main__whyChoose__bottom__card">
+              <div class="main__whyChoose__bottom__card__topOfCard">
+                <div class="main__whyChoose__bottom__card__boxLogo">
+                  <img src="images/Client-Centic.svg" alt="" class="main__whyChoose__bottom__card__logo">
+                </div>
+                <div class="main__whyChoose__bottom__card__heading">
+                  <p>Results-Driven Solutions</p>
+                </div>
+              </div>
+              <div class="main__whyChoose__bottom__card__text">
+                Our primary focus is on delivering results. We combine creativity and technical expertise to create
+                digital products that drive business growth, enhance user experiences, and provide a competitive
+                advantage.
+              </div>
+            </div>
+            <div class="main__whyChoose__bottom__card">
+              <div class="main__whyChoose__bottom__card__topOfCard">
+                <div class="main__whyChoose__bottom__card__boxLogo">
+                  <img src="images/Client-Centic.svg" alt="" class="main__whyChoose__bottom__card__logo">
+                </div>
+                <div class="main__whyChoose__bottom__card__heading">
+                  <p>Collaborative Partnership</p>
+                </div>
+              </div>
+              <div class="main__whyChoose__bottom__card__text">
+                We value long-term relationships with our clients. We see ourselves as your digital partner, providing
+                ongoing support, maintenance, and updates to ensure your digital products continue to thrive.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__testimonials">
+        <div class="main__testimonials__top">
+          <div class="onTopPicture onTopPicture__testimonials"></div>
+          <img src="images/Testimonials.png" alt="" class="testimonials__picture">
+          <div class="main__testimonials__textContainer">
+            <h2 class="main__testimonials__textContainer__h2">What our Clients say About us</h2>
+            <p class="main__testimonials__textContainer__p">At UXUID, we take pride in delivering exceptional digital
+              products and services that drive success for our clients. Here's what some of our satisfied clients have
+              to say about their experience working with us</p>
+          </div>
+        </div>
+        <div class="main__testimonials__bottom">
+          <div class="main__testimonials__bottomContainerOfTwoCards testimonials__firstDoubleCard">
+            <div class="main__testimonials__bottomContainerCard main__testimonials__bottomContainerCard__first">
+              <div class="main__testimonials__bottomContainerCard__card__heading">
+                <div class="main__testimonials__bottomContainerCard__card__headingText">
+                  <p>UXUID has been Instrumental in Transforming our Online Presence.</p>
+                </div>
+                <div class="main__testimonials__bottomContainerCard__card__text">
+                  Their team's expertise in web development and design resulted in a visually stunning and
+                  user-friendly
+                  e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier.
+                </div>
+              </div>
+              <div
+                class="main__testimonials__bottomContainerCard__card__bottomProfile main__testimonials__bottomContainerCard__card__bottomProfile__firstTwo">
+                <div class="main__testimonials__bottomContainerCard__card__bottomProfile__leftPart">
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__photoBlock">
+                    <img src="images/ProfileJohn.svg" alt=""
+                      class="main__testimonials__bottomContainerCard__card__bottomProfile__photo">
+                  </div>
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__textContainer">
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__name">
+                      John Smith
+                    </div>
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__profession">
+                      CEO of Chic Boutique
+                    </div>
+                  </div>
+                </div>
+                <div class="main__testimonials__bottomContainerCard__card__bottomProfile__linkWebsite">
+                  Open Website
+                </div>
+              </div>
+            </div>
+            <div class="main__testimonials__bottomContainerCard main__testimonials__bottomContainerCard__second">
+                <div class="main__testimonials__bottomContainerCard__card__heading">
+                  <div class="main__testimonials__bottomContainerCard__card__headingText">
+                    <p>Working with UXUID was a breeze.</p>
+                  </div>
+                  <div class="main__testimonials__bottomContainerCard__card__text">
+                    They understood our vision for a mobile app that streamlined our food delivery service. The app they
+                    delivered exceeded our expectations, and our customers love the seamless ordering experience. UXUID
+                    is a trusted partner we highly recommend.
+                  </div>
+                </div>
+                <div
+                  class="main__testimonials__bottomContainerCard__card__bottomProfile main__testimonials__bottomContainerCard__card__bottomProfile__firstTwo">
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__leftPart">
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__photoBlock">
+                      <img src="images/ProfileSarah.svg" alt=""
+                        class="main__testimonials__bottomContainerCard__card__bottomProfile__photo">
+                    </div>
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__textContainer">
+                      <div class="main__testimonials__bottomContainerCard__card__bottomProfile__name">
+                        Sarah Johnson
+                      </div>
+                      <div class="main__testimonials__bottomContainerCard__card__bottomProfile__profession">
+                        Founder of HungryBites.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__linkWebsite">
+                    Open Website
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="main__testimonials__bottomContainerOfTwoCards testimonials__secondDoubleCard">
+            <div class="main__testimonials__bottomContainerCard main__testimonials__bottomContainerCard__third">
+              <div class="main__testimonials__bottomContainerCard__card__heading">
+                <div class="main__testimonials__bottomContainerCard__card__headingText">
+                  <p>
+                    UXUID developed a comprehensive booking and reservation system for our event management company
+                  </p>
+                </div>
+                <div class="main__testimonials__bottomContainerCard__card__text">
+                  Their attention to detail and commitment to delivering a user-friendly platform was evident
+                  throughout the project. The system has streamlined our operations and enhanced our clients' event
+                  experiences.
+                </div>
+              </div>
+              <div class="main__testimonials__bottomContainerCard__card__bottomProfile">
+                <div class="main__testimonials__bottomContainerCard__card__bottomProfile__leftPart">
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__photoBlock">
+                    <img src="images/ProfileMark.svg" alt=""
+                      class="main__testimonials__bottomContainerCard__card__bottomProfile__photo">
+                  </div>
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__textContainer">
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__name">
+                      Mark Thompson
+                    </div>
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__profession">
+                      CEO of EventMasters
+                    </div>
+                  </div>
+                </div>
+                <div class="main__testimonials__bottomContainerCard__card__bottomProfile__linkWebsite">
+                  Open Website
+                </div>
+              </div>
+            </div>
+            <div class="main__testimonials__bottomContainerCard main__testimonials__bottomContainerCard__fourth">
+              <div class="main__testimonials__bottomContainerCard__card__heading">
+                <div class="main__testimonials__bottomContainerCard__card__headingText">
+                  <p>ProTech Solutions turned to UXUID to automate our workflow</p>
+                </div>
+                <div class="main__testimonials__bottomContainerCard__card__text">
+                  They delivered an exceptional custom software solution. The system has significantly increased our
+                  productivity and reduced manual errors. UXUID's expertise and professionalism have made them a
+                  trusted technology partner.
+                </div>
+              </div>
+              <div class="main__testimonials__bottomContainerCard__card__bottomProfile">
+                <div class="main__testimonials__bottomContainerCard__card__bottomProfile__leftPart">
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__photoBlock">
+                    <img src="images/ProfileLaura.svg" alt=""
+                      class="main__testimonials__bottomContainerCard__card__bottomProfile__photo">
+                  </div>
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__textContainer">
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__name">
+                      Laura Adams
+                    </div>
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__profession">
+                      COO of ProTech Solutions.
+                    </div>
+                  </div>
+                </div>
+                <div class="main__testimonials__bottomContainerCard__card__bottomProfile__linkWebsite">
+                  Open Website
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__testimonials__bottomContainerOfTwoCards testimonials__thirdDoubleCard">
+            <div class="main__testimonials__bottomContainerCard main__testimonials__bottomContainerCard__fifth">
+              <div class="main__testimonials__bottomContainerCard__card__heading">
+                <div class="main__testimonials__bottomContainerCard__card__headingText">
+                  <p>UXUID designed and developed a captivating web portal for showcasing our real estate listings.
+                  </p>
+                </div>
+                <div class="main__testimonials__bottomContainerCard__card__text">
+                  The platform is visually appealing and easy to navigate, allowing potential buyers to find their
+                  dream homes effortlessly. UXUID's expertise in the real estate industry is unmatched.
+                </div>
+              </div>
+              <div class="main__testimonials__bottomContainerCard__card__bottomProfile">
+                <div class="main__testimonials__bottomContainerCard__card__bottomProfile__leftPart">
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__photoBlock">
+                    <img src="images/ProfileMichael.svg" alt=""
+                      class="main__testimonials__bottomContainerCard__card__bottomProfile__photo">
+                  </div>
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__textContainer">
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__name">
+                      Michael Anderson </div>
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__profession">
+                      Founder of Dream Homes Realty. </div>
+                  </div>
+                </div>
+                <div class="main__testimonials__bottomContainerCard__card__bottomProfile__linkWebsite">
+                  Open Website
+                </div>
+              </div>
+            </div>
+            <div class="main__testimonials__bottomContainerCard main__testimonials__bottomContainerCard__sixth">
+              <div class="main__testimonials__bottomContainerCard__card__heading">
+                <div class="main__testimonials__bottomContainerCard__card__headingText">
+                  <p>FitLife Tracker wanted a mobile app that tracked fitness activities and provided personalized
+                    workout plans.</p>
+                </div>
+                <div class="main__testimonials__bottomContainerCard__card__text">
+                  UXUID's team developed an intuitive and feature-rich app that has helped our users stay motivated
+                  and achieve their fitness goals. We highly recommend UXUID for any health and fitness app
+                  development needs.
+                </div>
+              </div>
+              <div class="main__testimonials__bottomContainerCard__card__bottomProfile">
+                <div class="main__testimonials__bottomContainerCard__card__bottomProfile__leftPart">
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__photoBlock">
+                    <img src="images/ProfileEmily.svg" alt=""
+                      class="main__testimonials__bottomContainerCard__card__bottomProfile__photo">
+                  </div>
+                  <div class="main__testimonials__bottomContainerCard__card__bottomProfile__textContainer">
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__name">
+                      Emily Turner </div>
+                    <div class="main__testimonials__bottomContainerCard__card__bottomProfile__profession">
+                      CEO of FitLife Tracker </div>
+                  </div>
+                </div>
+                <div class="main__testimonials__bottomContainerCard__card__bottomProfile__linkWebsite">
+                  Open Website
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__FAQ">
+        <div class="main__FAQ__top">
+          <div class="onTopPicture onTopPicture__FAQ"></div>
+          <img src="images/FAQ.png" alt="" class="FAQ__picture">
+          <div class="main__FAQ__textContainer">
+            <h2 class="main__FAQ__textContainer__h2">
+              Frequently Asked Questions
+            </h2>
+            <p class="main__FAQ__textContainer__p">
+              Still you have any questions? Contact our Team via hello@uxuid.ru
+            </p>
+          </div>
+        </div>
+        <div class="main__FAQ__bottom">
+          <div class="main__FAQ__bottom__container main__FAQ__bottom__container__first">
+            <div class="main__FAQ__bottom__card__accordion active">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">01</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    What services does UXUID provide?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">02</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    How can UXUID help my business?
+                  </span>
+                  <div class="main__FAQ__bottom__card__accordion__blockOfIcon">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="main__FAQ__bottom__card__accordion__icon">
+                      <path
+                        d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                        fill="" />
+                    </svg>
+                  </div>
+
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">03</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    What industries does UXUID work with?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">04</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    How long does it take to complete a project with UXUID?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="main__FAQ__bottom__container main__FAQ__bottom__container__second">
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">05</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    Do you offer ongoing support and maintenance after the project is completed?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">06</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    Can you work with existing design or development frameworks?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">07</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    How involved will I be in the project development process?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+            <div class="main__FAQ__bottom__card__accordion">
+              <div class="main__FAQ__bottom__card__boxOfNumber">
+                <span class="main__FAQ__bottom__card__boxOfNumber__number">08</span>
+              </div>
+              <div class="main__FAQ__bottom__card__accordionContainerOfText">
+                <div class="main__FAQ__bottom__card__accordion__trigger">
+                  <span class="main__FAQ__bottom__card__accordion__title">
+                    Can you help with website or app maintenance and updates?
+                  </span>
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="main__FAQ__bottom__card__accordion__icon">
+                    <path
+                      d="M18.275 8.0748C18.275 7.37064 17.7042 6.7998 17 6.7998C16.2959 6.7998 15.725 7.37064 15.725 8.0748V15.7248H8.07505C7.37089 15.7248 6.80005 16.2956 6.80005 16.9998C6.80005 17.704 7.37089 18.2748 8.07505 18.2748L15.725 18.2748V25.9248C15.725 26.629 16.2959 27.1998 17 27.1998C17.7042 27.1998 18.275 26.629 18.275 25.9248V18.2748L25.925 18.2748C26.6292 18.2748 27.2 17.704 27.2 16.9998C27.2 16.2956 26.6292 15.7248 25.925 15.7248H18.275V8.0748Z"
+                      fill="" />
+                  </svg>
+                </div>
+                <div class="main__FAQ__bottom__card__accordion__text">
+                  UXUID offers a range of services including design, engineering, and project management. We
+                  specialize
+                  in
+                  user experience design, web development, mobile app development, custom software development,
+                  branding
+                  and identity, and more.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__contactSection">
+        <div class="main__contactSection__top">
+          <div class="onTopPicture onTopPicture__contactSection"></div>
+          <img src="images/contactSection.png" alt="" class="contactSection__picture">
+          <div class="main__contactSection__abovePicture">
+            <div class="main__contactSection__top__logo">
+              <img src="images/contactSectionLogo.svg" alt="" class="main__contactSection__top__logo__img">
+            </div>
+            <div class="main__contactSection__top__textContainer">
+              <h2 class="main__contactSection__top__textContainer__h2">
+                Thank you for your Interest in UXUID.
+              </h2>
+              <div class="main__contactSection__top__textContainer__p">We would love to hear from you and discuss how we
+                can help bring your digital ideas to life. Here are the different ways you can get in touch with us.
+              </div>
+            </div>
+            <div class="main__contactSection__top__button">Start Project</div>
+          </div>
+        </div>
+        <div class="main__contactSection__bottom">
+          <div class="main__contactSection__bottom__container">
+            <div class="main__contactSection__bottom__container__topContainer">
+              <div class="main__contactSection__bottom__container__topContainer__subContainer">
+                <span class="main__contactSection__bottom__container__topContainer__text">Full Name</span>
+                <input type="text" placeholder="Type here" class="main__contactSection__input">
+              </div>
+              <div class="main__contactSection__bottom__container__topContainer__subContainer">
+                <span class="main__contactSection__bottom__container__topContainer__text">Email</span>
+                <input type="text" placeholder="Type here" class="main__contactSection__input">
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__whyContactingUs">
+              <div class="main__contactSection__bottom__container__whyContactingUs__topText">
+                Why are you contacting us?
+              </div>
+              <div class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs">
+                <div
+                  class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainerLeft">
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input"
+                        checked>
+                      Web Design
+                    </label>
+                  </div>
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input">
+                      Collaboration
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainerRight">
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input">
+                      Mobile App Design
+                    </label>
+                  </div>
+                  <div
+                    class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__subContainer">
+                    <label class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__label">
+                      <input type="checkbox"
+                        class="main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input">
+                      Others
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__yourBudget">
+              <div class="main__contactSection__bottom__container__yourBudget__topText">
+                <h2 class="main__contactSection__bottom__container__yourBudget__topText__h2">
+                  Your Budget
+                </h2>
+                <p class="main__contactSection__bottom__container__yourBudget__topText__p">
+                  Slide to indicate your budget range
+                </p>
+              </div>
+              <div class="main__contactSection__bottom__container__yourBudget__rangeSlider" id="range-slider">
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__yourMessage">
+              <h2 class="main__contactSection__bottom__container__yourMessage__topText__h2">
+                Your Message
+              </h2>
+              <div class="main__contactSection__bottom_container__yourMessage__inputs">
+                <input type="text" placeholder="Type here"
+                  class="main__contactSection__input main__contactSection__input__yourMessage" maxlength="85"
+                  onkeyup="testJump(this);">
+                <input type="text" class="main__contactSection__input main__contactSection__input__yourMessage">
+              </div>
+            </div>
+            <div class="main__contactSection__bottom__container__buttonSubmit">
+              Submit
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__inner">
+          <div class="footer__start">
+            <div class="logo" href="#"  onclick="location.href='/index.html'" style="cursor: pointer;">
+              <a href="#">
+                <img src="images/Logo.svg" alt="" class="logo__img" />
+              </a>
+              <div class="logo__text">
+                <a href="#">UXUI<span class="logo_text_D">D</span></a>
+              </div>
+            </div>
+            <div class="line-mobile"></div>
+            <nav class="navbar__footer">
+              <ul class="navbar__footer__list">
+                <li class="navbar__footer__list-item">
+                  <a href="/index.html" class="navbar__footer__list-link">Home</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/services.html" class="navbar__footer__list-link">Services</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/works.html" class="navbar__footer__list-link">Work</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/process.html" class="navbar__footer__list-link">Process</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/about.html" class="navbar__footer__list-link">About</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/careers.html" class="navbar__footer__list-link">Careers</a>
+                </li>
+                <li class="navbar__footer__list-item">
+                  <a href="/contact.html" class="navbar__footer__list-link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__subContainer">
+              <div class="footer__subContainer__text">Stay Connected</div>
+              <div class="footer__subContainer__buttons">
+                <div class="footer__subContainer__button">
+                  <img src="images/Facebook.svg" alt="" class="footer__subContainer__icons" />
+                </div>
+                <div class="footer__subContainer__button">
+                  <img src="images/Twitter.svg" alt="" class="footer__subContainer__icons" />
+                </div>
+                <div class="footer__subContainer__button">
+                  <img src="images/Telegram.svg" alt=""
+                    class="footer__subContainer__icons footer__subContainer__icon__lastOne" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="footer__end">
+            <div class="footer__end__subContainer">
+              <div class="footer__end__subContainer__block">
+                <img src="images/Mail.svg" alt="" class="footer__end__subContainer__block__icon" />
+                <span class="footer__end__subContainer__block__span">hello@uxuid.ru</span>
+              </div>
+              <div class="footer__end__subContainer__block">
+                <img src="images/Phone.svg" alt="" class="footer__end__subContainer__block__icon" />
+                <span class="footer__end__subContainer__block__span">+91 91813 23 2309</span>
+              </div>
+              <div class="footer__end__subContainer__block">
+                <img src="images/Geo.svg" alt="" class="footer__end__subContainer__block__icon" />
+                <span class="footer__end__subContainer__block__span">Somewhere in the World</span>
+              </div>
+            </div>
+            <div class="footer__end__text">
+              <span class="footer__end__text__span">© 2023 UXUID. All rights reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="noUiSlider and JS/nouislider.min.js"></script>
+  <script src="noUiSlider and JS/index.js"></script>
+</body>
+
+</html>
