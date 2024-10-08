@@ -1203,6 +1203,10 @@ ul {
   background-color: rgba(51, 51, 51, 1);
 }
 
+.noUi-base {
+  height: 30px;
+}
+
 .noUi-connect {
   background-color: rgba(51, 0, 255, 1);
   height: 5px;
