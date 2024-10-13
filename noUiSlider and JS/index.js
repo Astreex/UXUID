@@ -191,7 +191,7 @@ checks.forEach(check => {
       check.style.background = 'none'
     } else {
       check.checked = "True"
-      check.style.background = url('https://astreex.github.io/UXUID/images/checkBox.svg')
+      check.style.background = url("https://astreex.github.io/UXUID/images/checkBox.svg")
     }
   });
 })
