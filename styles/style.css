@@ -1871,7 +1871,8 @@ ul {
     padding: 14px 24px;
     font-size: 14px;
     text-wrap: nowrap;
-    margin-top: -52px;
+    margin-top: -43px;
+    line-height: 14px;
   }
 
 }
