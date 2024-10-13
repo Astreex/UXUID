@@ -181,17 +181,3 @@ function closeOnClick() {
   hamb.classList.remove("active");
   body.classList.remove("noscroll");
 }
-
-const checks = document.querySelectorAll('.main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input')
-checks[0].checked = "True"
-checks.forEach(check => {
-  check.addEventListener('click', () => {
-    if (check.checked) {
-      check.checked = "False"
-      check.style.background = 'none'
-    } else {
-      check.checked = "True"
-      check.style.background = url("/astreex.github.io/UXUID/images/checkBox.svg")
-    }
-  });
-})

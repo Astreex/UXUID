@@ -1058,7 +1058,7 @@ ul {
   margin-right: 10px;
 
   &:checked {
-    background: url(/images/checkBox.svg) center center no-repeat;
+    background: url(UXUID/images/checkBox.svg) center center no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
