@@ -689,7 +689,7 @@ ul {
   width: 100%;
   padding: 100px 80px;
   border: 1px solid #262626;
-  
+
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
@@ -1307,9 +1307,9 @@ ul {
     position: relative;
     width: 119px;
     height: 40px;
-    cursor:none;
+    cursor: none;
   }
-  
+
   .logo__text {
     width: 57px;
     height: 21px;
@@ -1384,9 +1384,11 @@ ul {
     line-height: 17px;
     text-wrap: nowrap;
   }
+
   .main__buttonsContainer__button1 {
     padding: 11px 20px 14px;
   }
+
   .main__buttonsContainer__button2 {
     width: 108px;
   }
@@ -2187,6 +2189,7 @@ ul {
       border-bottom: 0;
     }
   }
+
   .main__ourServices__bottom {
     justify-content: center;
     height: 772px;
@@ -2486,7 +2489,7 @@ ul {
     margin-top: 6px;
   }
 
-  .main__contactSection__top__logo__img{
+  .main__contactSection__top__logo__img {
     width: 50px;
     height: 50px;
   }
@@ -2725,7 +2728,7 @@ ul {
 
 @media screen and (max-width: 1096px) {
   .main__ourServices__bottom {
-    height:  fit-content;
+    height: fit-content;
   }
 }
 
@@ -2751,16 +2754,19 @@ ul {
     height: 1070px;
   }
 }
+
 @media screen and (max-width: 621px) {
   .main__FAQ__bottom {
     border-left: 0;
     border-right: 0;
     border-top: 0;
   }
+
   .main__FAQ__top {
     border-bottom: 0;
   }
 }
+
 @media screen and (max-width: 566px) {
   .main__ourServices__bottom {
     border: 0;
