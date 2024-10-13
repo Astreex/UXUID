@@ -188,8 +188,10 @@ checks.forEach(check => {
   check.addEventListener('click', () => {
     if (check.checked) {
       check.checked = "False"
+      check.style.background = 'none'
     } else {
       check.checked = "True"
+      check.style.background = url(/images/checkBox.svg)
     }
   });
 })
