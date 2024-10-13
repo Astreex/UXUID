@@ -130,11 +130,11 @@ const main__abstractDesign = document.querySelector('.main__abstractDesign__svg'
 const main__contactSection__top = document.querySelector('.main__contactSection__top')
 const contactSection__picture = document.querySelector('.contactSection__picture')
 window.addEventListener('resize', () => {
-  if(main__top) {
+  if (main__top) {
     if ((main__top.clientWidth + 2) < 2000) {
-    main__abstractDesign.style.marginLeft = (((main__top.clientWidth + 2) - main__abstractDesign.clientWidth) / 2) + 'px'
-    main__abstractDesign.style.marginRight = (((main__top.clientWidth + 2) - main__abstractDesign.clientWidth) / 2) + 'px'
-  }
+      main__abstractDesign.style.marginLeft = (((main__top.clientWidth + 2) - main__abstractDesign.clientWidth) / 2) + 'px'
+      main__abstractDesign.style.marginRight = (((main__top.clientWidth + 2) - main__abstractDesign.clientWidth) / 2) + 'px'
+    }
   }
   if ((main__contactSection__top.clientWidth + 2) < 1200) {
     contactSection__picture.style.marginLeft = (((main__contactSection__top.clientWidth + 2) - contactSection__picture.clientWidth) / 2) + 'px'
@@ -145,9 +145,9 @@ window.addEventListener('resize', () => {
 window.addEventListener('load', () => {
   if (main__top) {
     if ((main__top.clientWidth + 2) < 2000) {
-    main__abstractDesign.style.marginLeft = (((main__top.clientWidth + 2) - main__abstractDesign.clientWidth) / 2) + 'px'
-    main__abstractDesign.style.marginRight = (((main__top.clientWidth + 2) - main__abstractDesign.clientWidth) / 2) + 'px'
-  }
+      main__abstractDesign.style.marginLeft = (((main__top.clientWidth + 2) - main__abstractDesign.clientWidth) / 2) + 'px'
+      main__abstractDesign.style.marginRight = (((main__top.clientWidth + 2) - main__abstractDesign.clientWidth) / 2) + 'px'
+    }
   }
 })
 
@@ -182,3 +182,14 @@ function closeOnClick() {
   body.classList.remove("noscroll");
 }
 
+const checks = document.querySelectorAll('.main__contactSection__bottom__container__whyContactingUs__containerWithInputs__input')
+checks[0].checked = "True"
+checks.forEach(check => {
+  check.addEventListener('click', () => {
+    if (check.checked) {
+      check.checked = "False"
+    } else {
+      check.checked = "True"
+    }
+  });
+})
