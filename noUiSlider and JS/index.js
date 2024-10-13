@@ -1,5 +1,5 @@
 /* SLIDE UP */
-let slideUp = (target, duration = 300) => {
+let slideUp = (target, duration = 500) => {
   target.style.transitionProperty = 'height, margin, padding'
   target.style.transitionDuration = duration + 'ms'
   target.style.boxSizing = 'border-box'
